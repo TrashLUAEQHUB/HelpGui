@@ -1,0 +1,3720 @@
+local Converted = {
+	["_Help gui v1.7.2"] = Instance.new("ScreenGui");
+	["_FILE - LOADING"] = Instance.new("Folder");
+	["_text"] = Instance.new("TextLabel");
+	["_Loading"] = Instance.new("LocalScript");
+	["_Error text - executor"] = Instance.new("TextLabel");
+	["_TextButton"] = Instance.new("TextButton");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_FILE - MAIN UI"] = Instance.new("Folder");
+	["_Parents"] = Instance.new("Frame");
+	["_Select Theme"] = Instance.new("Frame");
+	["_Dropdown"] = Instance.new("TextLabel");
+	["_Open Select"] = Instance.new("TextButton");
+	["_THEME SELECT"] = Instance.new("LocalScript");
+	["_Close"] = Instance.new("TextButton");
+	["_DELETE"] = Instance.new("LocalScript");
+	["_Use Theme"] = Instance.new("TextButton");
+	["_START MAIN"] = Instance.new("LocalScript");
+	["_DropDown Select"] = Instance.new("Frame");
+	["_Dark"] = Instance.new("TextButton");
+	["_Dark1"] = Instance.new("LocalScript");
+	["_Light"] = Instance.new("TextButton");
+	["_LIGHT"] = Instance.new("LocalScript");
+	["_Download - 2"] = Instance.new("Frame");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_LOAD BAR"] = Instance.new("Frame");
+	["_FULL  BAR"] = Instance.new("Frame");
+	["_Theme Loader"] = Instance.new("LocalScript");
+	["_FILE - START UP"] = Instance.new("Folder");
+	["_Start-up"] = Instance.new("LocalScript");
+	["_Home"] = Instance.new("Frame");
+	["_Theme"] = Instance.new("LocalScript");
+	["_drag"] = Instance.new("LocalScript");
+	["_Tab-Select"] = Instance.new("Frame");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_Title"] = Instance.new("TextLabel");
+	["_Theme1"] = Instance.new("LocalScript");
+	["_TextLabel1"] = Instance.new("TextLabel");
+	["_Theme2"] = Instance.new("LocalScript");
+	["_Tab-Change-MAIN"] = Instance.new("TextButton");
+	["_Theme3"] = Instance.new("LocalScript");
+	["_Event"] = Instance.new("LocalScript");
+	["_Tab-Main"] = Instance.new("Folder");
+	["_Frame"] = Instance.new("Frame");
+	["_Text"] = Instance.new("TextLabel");
+	["_Theme4"] = Instance.new("LocalScript");
+	["_Text1"] = Instance.new("TextLabel");
+	["_Theme5"] = Instance.new("LocalScript");
+	["_Button"] = Instance.new("TextLabel");
+	["_Theme6"] = Instance.new("LocalScript");
+	["_Button1"] = Instance.new("TextButton");
+	["_Theme7"] = Instance.new("LocalScript");
+	["_event"] = Instance.new("LocalScript");
+	["_Text2"] = Instance.new("TextLabel");
+	["_Theme8"] = Instance.new("LocalScript");
+	["_Text3"] = Instance.new("TextLabel");
+	["_Theme9"] = Instance.new("LocalScript");
+	["_game name"] = Instance.new("TextLabel");
+	["_Theme10"] = Instance.new("LocalScript");
+	["_GetGameName"] = Instance.new("LocalScript");
+	["_Tab-Change-Copy"] = Instance.new("TextButton");
+	["_Theme11"] = Instance.new("LocalScript");
+	["_Event1"] = Instance.new("LocalScript");
+	["_Tab-Copy"] = Instance.new("Folder");
+	["_Frame1"] = Instance.new("Frame");
+	["_Button2"] = Instance.new("TextLabel");
+	["_Theme12"] = Instance.new("LocalScript");
+	["_Button3"] = Instance.new("TextButton");
+	["_Theme13"] = Instance.new("LocalScript");
+	["_event1"] = Instance.new("LocalScript");
+	["_Button4"] = Instance.new("TextLabel");
+	["_Theme14"] = Instance.new("LocalScript");
+	["_Button5"] = Instance.new("TextButton");
+	["_Theme15"] = Instance.new("LocalScript");
+	["_event2"] = Instance.new("LocalScript");
+	["_Button6"] = Instance.new("TextLabel");
+	["_Theme16"] = Instance.new("LocalScript");
+	["_Button7"] = Instance.new("TextButton");
+	["_Theme17"] = Instance.new("LocalScript");
+	["_event3"] = Instance.new("LocalScript");
+	["_Button8"] = Instance.new("TextLabel");
+	["_Theme18"] = Instance.new("LocalScript");
+	["_Button9"] = Instance.new("TextButton");
+	["_Theme19"] = Instance.new("LocalScript");
+	["_event4"] = Instance.new("LocalScript");
+	["_Button10"] = Instance.new("TextLabel");
+	["_Theme20"] = Instance.new("LocalScript");
+	["_Button11"] = Instance.new("TextButton");
+	["_Theme21"] = Instance.new("LocalScript");
+	["_event5"] = Instance.new("LocalScript");
+	["_Tab-Change-Settings"] = Instance.new("TextButton");
+	["_Theme22"] = Instance.new("LocalScript");
+	["_Event2"] = Instance.new("LocalScript");
+	["_Tab-Other"] = Instance.new("Folder");
+	["_Frame2"] = Instance.new("Frame");
+	["_Text4"] = Instance.new("TextLabel");
+	["_Theme23"] = Instance.new("LocalScript");
+	["_Button12"] = Instance.new("TextLabel");
+	["_Theme24"] = Instance.new("LocalScript");
+	["_Button13"] = Instance.new("TextButton");
+	["_Theme25"] = Instance.new("LocalScript");
+	["_event6"] = Instance.new("LocalScript");
+	["_Button14"] = Instance.new("TextLabel");
+	["_Theme26"] = Instance.new("LocalScript");
+	["_Button15"] = Instance.new("TextButton");
+	["_Theme27"] = Instance.new("LocalScript");
+	["_event7"] = Instance.new("LocalScript");
+	["_Button16"] = Instance.new("TextLabel");
+	["_Theme28"] = Instance.new("LocalScript");
+	["_Button17"] = Instance.new("TextButton");
+	["_Theme29"] = Instance.new("LocalScript");
+	["_event8"] = Instance.new("LocalScript");
+	["_Sure"] = Instance.new("TextButton");
+	["_Theme30"] = Instance.new("LocalScript");
+	["_event9"] = Instance.new("LocalScript");
+	["_No"] = Instance.new("TextButton");
+	["_Theme31"] = Instance.new("LocalScript");
+	["_event10"] = Instance.new("LocalScript");
+	["_Tab-Change-Scripts"] = Instance.new("TextButton");
+	["_Theme32"] = Instance.new("LocalScript");
+	["_Event3"] = Instance.new("LocalScript");
+	["_Tab-View"] = Instance.new("Folder");
+	["_Frame3"] = Instance.new("Frame");
+	["_Text5"] = Instance.new("TextLabel");
+	["_Theme33"] = Instance.new("LocalScript");
+	["_TextBox"] = Instance.new("TextBox");
+	["_Theme34"] = Instance.new("LocalScript");
+	["_Event4"] = Instance.new("LocalScript");
+	["_TextLabel2"] = Instance.new("TextLabel");
+	["_Theme35"] = Instance.new("LocalScript");
+	["_Text6"] = Instance.new("TextLabel");
+	["_Theme36"] = Instance.new("LocalScript");
+	["_TextBox1"] = Instance.new("TextBox");
+	["_Theme37"] = Instance.new("LocalScript");
+	["_Event5"] = Instance.new("LocalScript");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_Theme38"] = Instance.new("LocalScript");
+	["_Text7"] = Instance.new("TextLabel");
+	["_Theme39"] = Instance.new("LocalScript");
+	["_TextBox2"] = Instance.new("TextBox");
+	["_Theme40"] = Instance.new("LocalScript");
+	["_Event6"] = Instance.new("LocalScript");
+	["_TextLabel4"] = Instance.new("TextLabel");
+	["_Theme41"] = Instance.new("LocalScript");
+	["_Text8"] = Instance.new("TextLabel");
+	["_Theme42"] = Instance.new("LocalScript");
+	["_TextBox3"] = Instance.new("TextBox");
+	["_Theme43"] = Instance.new("LocalScript");
+	["_Event7"] = Instance.new("LocalScript");
+	["_TextLabel5"] = Instance.new("TextLabel");
+	["_Theme44"] = Instance.new("LocalScript");
+	["_Text9"] = Instance.new("TextLabel");
+	["_Theme45"] = Instance.new("LocalScript");
+	["_TextBox4"] = Instance.new("TextBox");
+	["_Theme46"] = Instance.new("LocalScript");
+	["_Event8"] = Instance.new("LocalScript");
+	["_TextLabel6"] = Instance.new("TextLabel");
+	["_Theme47"] = Instance.new("LocalScript");
+	["_Text10"] = Instance.new("TextLabel");
+	["_Theme48"] = Instance.new("LocalScript");
+	["_TextBox5"] = Instance.new("TextBox");
+	["_Theme49"] = Instance.new("LocalScript");
+	["_Event9"] = Instance.new("LocalScript");
+	["_TextLabel7"] = Instance.new("TextLabel");
+	["_Theme50"] = Instance.new("LocalScript");
+	["_Tab-Change-Settings1"] = Instance.new("TextButton");
+	["_Theme51"] = Instance.new("LocalScript");
+	["_Event10"] = Instance.new("LocalScript");
+	["_Tab-Scripts"] = Instance.new("Folder");
+	["_Frame4"] = Instance.new("Frame");
+	["_Button18"] = Instance.new("TextLabel");
+	["_Theme52"] = Instance.new("LocalScript");
+	["_Button19"] = Instance.new("TextButton");
+	["_Theme53"] = Instance.new("LocalScript");
+	["_event11"] = Instance.new("LocalScript");
+	["_Button20"] = Instance.new("TextLabel");
+	["_Theme54"] = Instance.new("LocalScript");
+	["_Button21"] = Instance.new("TextButton");
+	["_Theme55"] = Instance.new("LocalScript");
+	["_event12"] = Instance.new("LocalScript");
+	["_Button22"] = Instance.new("TextLabel");
+	["_Theme56"] = Instance.new("LocalScript");
+	["_Button23"] = Instance.new("TextButton");
+	["_Theme57"] = Instance.new("LocalScript");
+	["_event13"] = Instance.new("LocalScript");
+	["_Button24"] = Instance.new("TextLabel");
+	["_Theme58"] = Instance.new("LocalScript");
+	["_Button25"] = Instance.new("TextButton");
+	["_Theme59"] = Instance.new("LocalScript");
+	["_event14"] = Instance.new("LocalScript");
+	["_FILE - THEME"] = Instance.new("Folder");
+	["_THEME"] = Instance.new("LocalScript");
+	["_GetThemeColor"] = Instance.new("LocalScript");
+}
+
+-- Properties:
+
+Converted["_Help gui v1.7.2"].Name = "Help gui v1.7.2"
+Converted["_Help gui v1.7.2"].Parent = game:GetService("CoreGui")
+
+Converted["_FILE - LOADING"].Name = "FILE - LOADING"
+Converted["_FILE - LOADING"].Parent = Converted["_Help gui v1.7.2"]
+
+Converted["_text"].Font = Enum.Font.SourceSansBold
+Converted["_text"].Text = "Loading"
+Converted["_text"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_text"].TextSize = 14
+Converted["_text"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_text"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_text"].Position = UDim2.new(0.417972833, 0, 0.978744924, 0)
+Converted["_text"].Size = UDim2.new(0, 313, 0, 21)
+Converted["_text"].Visible = false
+Converted["_text"].Name = "text"
+Converted["_text"].Parent = Converted["_FILE - LOADING"]
+
+Converted["_Error text - executor"].Font = Enum.Font.SourceSansBold
+Converted["_Error text - executor"].Text = "Sorry but go to use another executor!"
+Converted["_Error text - executor"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Error text - executor"].TextSize = 14
+Converted["_Error text - executor"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Error text - executor"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Error text - executor"].Position = UDim2.new(0.409090906, 0, 0.490890682, 0)
+Converted["_Error text - executor"].Size = UDim2.new(0, 348, 0, 18)
+Converted["_Error text - executor"].Visible = false
+Converted["_Error text - executor"].Name = "Error text - executor"
+Converted["_Error text - executor"].Parent = Converted["_FILE - LOADING"]
+
+Converted["_TextButton"].Font = Enum.Font.SourceSansBold
+Converted["_TextButton"].Text = "Close"
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].Position = UDim2.new(0, 0, -1, 0)
+Converted["_TextButton"].Size = UDim2.new(0, 73, 0, 18)
+Converted["_TextButton"].Parent = Converted["_Error text - executor"]
+
+Converted["_FILE - MAIN UI"].Name = "FILE - MAIN UI"
+Converted["_FILE - MAIN UI"].Parent = Converted["_Help gui v1.7.2"]
+
+Converted["_Parents"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Parents"].BackgroundTransparency = 1
+Converted["_Parents"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Parents"].BorderSizePixel = 0
+Converted["_Parents"].Size = UDim2.new(0, 1914, 0, 917)
+Converted["_Parents"].Visible = false
+Converted["_Parents"].Name = "Parents"
+Converted["_Parents"].Parent = Converted["_FILE - MAIN UI"]
+
+Converted["_Select Theme"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Select Theme"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Select Theme"].Position = UDim2.new(0.419017762, 0, 0.463467836, 0)
+Converted["_Select Theme"].Size = UDim2.new(0, 309, 0, 85)
+Converted["_Select Theme"].Name = "Select Theme"
+Converted["_Select Theme"].Parent = Converted["_Parents"]
+
+Converted["_Dropdown"].Font = Enum.Font.SourceSans
+Converted["_Dropdown"].Text = "Light Theme"
+Converted["_Dropdown"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Dropdown"].TextSize = 14
+Converted["_Dropdown"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Dropdown"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Dropdown"].Position = UDim2.new(0.0485436879, 0, 0.181560919, 0)
+Converted["_Dropdown"].Size = UDim2.new(0, 243, 0, 21)
+Converted["_Dropdown"].Name = "Dropdown"
+Converted["_Dropdown"].Parent = Converted["_Select Theme"]
+
+Converted["_Open Select"].Font = Enum.Font.SourceSans
+Converted["_Open Select"].Text = "<"
+Converted["_Open Select"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Open Select"].TextSize = 14
+Converted["_Open Select"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Open Select"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Open Select"].Position = UDim2.new(1, 0, 0, 0)
+Converted["_Open Select"].Size = UDim2.new(0, 36, 0, 21)
+Converted["_Open Select"].Name = "Open Select"
+Converted["_Open Select"].Parent = Converted["_Dropdown"]
+
+Converted["_Close"].Font = Enum.Font.SourceSans
+Converted["_Close"].Text = "Close"
+Converted["_Close"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Close"].TextSize = 14
+Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Close"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Close"].Position = UDim2.new(-0.000838919426, 0, 1.78935599, 0)
+Converted["_Close"].Size = UDim2.new(0, 70, 0, 20)
+Converted["_Close"].Name = "Close"
+Converted["_Close"].Parent = Converted["_Dropdown"]
+
+Converted["_Use Theme"].Font = Enum.Font.SourceSans
+Converted["_Use Theme"].Text = "Use Theme"
+Converted["_Use Theme"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Use Theme"].TextSize = 14
+Converted["_Use Theme"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Use Theme"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Use Theme"].Position = UDim2.new(0.859962225, 0, 1.78935599, 0)
+Converted["_Use Theme"].Size = UDim2.new(0, 70, 0, 20)
+Converted["_Use Theme"].Name = "Use Theme"
+Converted["_Use Theme"].Parent = Converted["_Dropdown"]
+
+Converted["_DropDown Select"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_DropDown Select"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_DropDown Select"].Position = UDim2.new(-2.98530102, 0, -1.87882078, 0)
+Converted["_DropDown Select"].Size = UDim2.new(0, 243, 0, 163)
+Converted["_DropDown Select"].Visible = false
+Converted["_DropDown Select"].Name = "DropDown Select"
+Converted["_DropDown Select"].Parent = Converted["_Use Theme"]
+
+Converted["_Dark"].Font = Enum.Font.SourceSans
+Converted["_Dark"].Text = "Dark Theme"
+Converted["_Dark"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Dark"].TextSize = 14
+Converted["_Dark"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Dark"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Dark"].Position = UDim2.new(0, 0, 0.124473527, 0)
+Converted["_Dark"].Size = UDim2.new(0, 243, 0, 21)
+Converted["_Dark"].Name = "Dark"
+Converted["_Dark"].Parent = Converted["_DropDown Select"]
+
+Converted["_Light"].Font = Enum.Font.SourceSans
+Converted["_Light"].Text = "Light Theme"
+Converted["_Light"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Light"].TextSize = 14
+Converted["_Light"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Light"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Light"].Position = UDim2.new(0, 0, -0.00150742638, 0)
+Converted["_Light"].Size = UDim2.new(0, 243, 0, 21)
+Converted["_Light"].Name = "Light"
+Converted["_Light"].Parent = Converted["_DropDown Select"]
+
+Converted["_Download - 2"].BackgroundColor3 = Color3.fromRGB(52.000000700354576, 52.000000700354576, 52.000000700354576)
+Converted["_Download - 2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Download - 2"].Position = UDim2.new(0.411180764, 0, 0.466739357, 0)
+Converted["_Download - 2"].Size = UDim2.new(0, 339, 0, 60)
+Converted["_Download - 2"].Visible = false
+Converted["_Download - 2"].Name = "Download - 2"
+Converted["_Download - 2"].Parent = Converted["_Parents"]
+
+Converted["_TextLabel"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel"].Text = "Loading Theme"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Size = UDim2.new(0, 338, 0, 27)
+Converted["_TextLabel"].Parent = Converted["_Download - 2"]
+
+Converted["_LOAD BAR"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_LOAD BAR"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LOAD BAR"].Position = UDim2.new(0.0324483775, 0, 0.550000012, 0)
+Converted["_LOAD BAR"].Size = UDim2.new(0, 316, 0, 21)
+Converted["_LOAD BAR"].Name = "LOAD BAR"
+Converted["_LOAD BAR"].Parent = Converted["_Download - 2"]
+
+Converted["_FULL  BAR"].BackgroundColor3 = Color3.fromRGB(0, 255, 8.000000473111868)
+Converted["_FULL  BAR"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_FULL  BAR"].Size = UDim2.new(0, 316, 0, 21)
+Converted["_FULL  BAR"].Visible = false
+Converted["_FULL  BAR"].Name = "FULL  BAR"
+Converted["_FULL  BAR"].Parent = Converted["_LOAD BAR"]
+
+Converted["_FILE - START UP"].Name = "FILE - START UP"
+Converted["_FILE - START UP"].Parent = Converted["_Help gui v1.7.2"]
+
+Converted["_Home"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Home"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Home"].BorderSizePixel = 0
+Converted["_Home"].Position = UDim2.new(0.621212125, 0, 0.374389261, 0)
+Converted["_Home"].Size = UDim2.new(0, -464, 0, 223)
+Converted["_Home"].Visible = false
+Converted["_Home"].Name = "Home"
+Converted["_Home"].Parent = Converted["_Help gui v1.7.2"]
+
+Converted["_Tab-Select"].BackgroundColor3 = Color3.fromRGB(250.00000029802322, 255, 198.00000339746475)
+Converted["_Tab-Select"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Select"].BorderSizePixel = 0
+Converted["_Tab-Select"].Position = UDim2.new(-0.182795703, 0, 0, 0)
+Converted["_Tab-Select"].Size = UDim2.new(0, 85, 0, 223)
+Converted["_Tab-Select"].Name = "Tab-Select"
+Converted["_Tab-Select"].Parent = Converted["_Home"]
+
+Converted["_Title"].Font = Enum.Font.SourceSansBold
+Converted["_Title"].Text = "Help Gui v.1.7.2"
+Converted["_Title"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Title"].TextSize = 14
+Converted["_Title"].BackgroundColor3 = Color3.fromRGB(250.00000029802322, 255, 198.00000339746475)
+Converted["_Title"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Title"].BorderSizePixel = 0
+Converted["_Title"].Position = UDim2.new(-0.00202636723, 0, -0.121076234, 0)
+Converted["_Title"].Size = UDim2.new(0, 548, 0, 27)
+Converted["_Title"].Name = "Title"
+Converted["_Title"].Parent = Converted["_Tab-Select"]
+
+Converted["_TextLabel1"].Font = Enum.Font.SourceSans
+Converted["_TextLabel1"].Text = "[Alpha]"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].TextSize = 14
+Converted["_TextLabel1"].TextTransparency = 0.699999988079071
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Position = UDim2.new(0.569157183, 0, 0.444444448, 0)
+Converted["_TextLabel1"].Size = UDim2.new(0, 61, 0, 15)
+Converted["_TextLabel1"].Parent = Converted["_Title"]
+
+Converted["_Tab-Change-MAIN"].Font = Enum.Font.Arial
+Converted["_Tab-Change-MAIN"].Text = "Main"
+Converted["_Tab-Change-MAIN"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-MAIN"].TextSize = 13
+Converted["_Tab-Change-MAIN"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tab-Change-MAIN"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-MAIN"].BorderSizePixel = 0
+Converted["_Tab-Change-MAIN"].Position = UDim2.new(0.0705882385, 0, 0, 0)
+Converted["_Tab-Change-MAIN"].Size = UDim2.new(0, 72, 0, 25)
+Converted["_Tab-Change-MAIN"].Name = "Tab-Change-MAIN"
+Converted["_Tab-Change-MAIN"].Parent = Converted["_Tab-Select"]
+
+Converted["_Tab-Main"].Name = "Tab-Main"
+Converted["_Tab-Main"].Parent = Converted["_Tab-Select"]
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame"].BackgroundTransparency = 1
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(1, 0, 0.00896847341, 0)
+Converted["_Frame"].Size = UDim2.new(0, 464, 0, 220)
+Converted["_Frame"].Parent = Converted["_Tab-Main"]
+
+Converted["_Text"].Font = Enum.Font.SourceSans
+Converted["_Text"].Text = "Ayo Welcome"
+Converted["_Text"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text"].TextSize = 14
+Converted["_Text"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text"].Position = UDim2.new(0.0366379321, 0, 0.0500000007, 0)
+Converted["_Text"].Size = UDim2.new(0, 431, 0, 29)
+Converted["_Text"].Name = "Text"
+Converted["_Text"].Parent = Converted["_Frame"]
+
+Converted["_Text1"].Font = Enum.Font.SourceSans
+Converted["_Text1"].Text = "This Script is Alpha so Something you want it not have"
+Converted["_Text1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text1"].TextSize = 14
+Converted["_Text1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text1"].Position = UDim2.new(0.0366379321, 0, 0.24545455, 0)
+Converted["_Text1"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text1"].Name = "Text"
+Converted["_Text1"].Parent = Converted["_Frame"]
+
+Converted["_Button"].Font = Enum.Font.SourceSans
+Converted["_Button"].Text = "Discord Server"
+Converted["_Button"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button"].TextSize = 14
+Converted["_Button"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button"].Position = UDim2.new(0.0366379321, 0, 0.631818175, 0)
+Converted["_Button"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button"].Name = "Button"
+Converted["_Button"].Parent = Converted["_Frame"]
+
+Converted["_Button1"].Font = Enum.Font.SourceSans
+Converted["_Button1"].Text = "SetClipBoard"
+Converted["_Button1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button1"].TextSize = 14
+Converted["_Button1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button1"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button1"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button1"].Name = "Button"
+Converted["_Button1"].Parent = Converted["_Button"]
+
+Converted["_Text2"].Font = Enum.Font.SourceSans
+Converted["_Text2"].Text = "And Ui Pretty Suck because im not Ui designer"
+Converted["_Text2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text2"].TextSize = 14
+Converted["_Text2"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text2"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Text2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text2"].Position = UDim2.new(0.0366379321, 0, 0.372727275, 0)
+Converted["_Text2"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text2"].Name = "Text"
+Converted["_Text2"].Parent = Converted["_Frame"]
+
+Converted["_Text3"].Font = Enum.Font.SourceSans
+Converted["_Text3"].Text = "credits by 21xp team (really made by Jacob)"
+Converted["_Text3"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text3"].TextSize = 14
+Converted["_Text3"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text3"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Text3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text3"].Position = UDim2.new(0.0366379321, 0, 0.50454545, 0)
+Converted["_Text3"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text3"].Name = "Text"
+Converted["_Text3"].Parent = Converted["_Frame"]
+
+Converted["_game name"].Font = Enum.Font.SourceSans
+Converted["_game name"].Text = "Executor Not support!"
+Converted["_game name"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_game name"].TextSize = 14
+Converted["_game name"].TextTransparency = 0.699999988079071
+Converted["_game name"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_game name"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_game name"].BackgroundTransparency = 1
+Converted["_game name"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_game name"].BorderSizePixel = 0
+Converted["_game name"].Position = UDim2.new(0.019396551, 0, 0.931818306, 0)
+Converted["_game name"].Size = UDim2.new(0, 218, 0, 13)
+Converted["_game name"].Name = "game name"
+Converted["_game name"].Parent = Converted["_Frame"]
+
+Converted["_Tab-Change-Copy"].Font = Enum.Font.Arial
+Converted["_Tab-Change-Copy"].Text = "Copy"
+Converted["_Tab-Change-Copy"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-Copy"].TextSize = 13
+Converted["_Tab-Change-Copy"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tab-Change-Copy"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-Copy"].BorderSizePixel = 0
+Converted["_Tab-Change-Copy"].Position = UDim2.new(0.0705882385, 0, 0.134529144, 0)
+Converted["_Tab-Change-Copy"].Size = UDim2.new(0, 72, 0, 25)
+Converted["_Tab-Change-Copy"].Name = "Tab-Change-Copy"
+Converted["_Tab-Change-Copy"].Parent = Converted["_Tab-Select"]
+
+Converted["_Tab-Copy"].Name = "Tab-Copy"
+Converted["_Tab-Copy"].Parent = Converted["_Tab-Select"]
+
+Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame1"].BackgroundTransparency = 1
+Converted["_Frame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame1"].BorderSizePixel = 0
+Converted["_Frame1"].Position = UDim2.new(1, 0, -1.36850133e-07, 0)
+Converted["_Frame1"].Size = UDim2.new(0, 465, 0, 222)
+Converted["_Frame1"].Visible = false
+Converted["_Frame1"].Parent = Converted["_Tab-Copy"]
+
+Converted["_Button2"].Font = Enum.Font.SourceSans
+Converted["_Button2"].Text = "Copy CFrame"
+Converted["_Button2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button2"].TextSize = 14
+Converted["_Button2"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button2"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button2"].Position = UDim2.new(0.0344873555, 0, 0.0552414916, 0)
+Converted["_Button2"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button2"].Name = "Button"
+Converted["_Button2"].Parent = Converted["_Frame1"]
+
+Converted["_Button3"].Font = Enum.Font.SourceSans
+Converted["_Button3"].Text = "SetClipBoard"
+Converted["_Button3"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button3"].TextSize = 14
+Converted["_Button3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button3"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button3"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button3"].Name = "Button"
+Converted["_Button3"].Parent = Converted["_Button2"]
+
+Converted["_Button4"].Font = Enum.Font.SourceSans
+Converted["_Button4"].Text = "Copy PlaceId"
+Converted["_Button4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button4"].TextSize = 14
+Converted["_Button4"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button4"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button4"].Position = UDim2.new(0.0323368199, 0, 0.248935178, 0)
+Converted["_Button4"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button4"].Name = "Button"
+Converted["_Button4"].Parent = Converted["_Frame1"]
+
+Converted["_Button5"].Font = Enum.Font.SourceSans
+Converted["_Button5"].Text = "SetClipBoard"
+Converted["_Button5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button5"].TextSize = 14
+Converted["_Button5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button5"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button5"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button5"].Name = "Button"
+Converted["_Button5"].Parent = Converted["_Button4"]
+
+Converted["_Button6"].Font = Enum.Font.SourceSans
+Converted["_Button6"].Text = "Copy Game Name"
+Converted["_Button6"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button6"].TextSize = 14
+Converted["_Button6"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button6"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button6"].Position = UDim2.new(0.0323368199, 0, 0.433619738, 0)
+Converted["_Button6"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button6"].Name = "Button"
+Converted["_Button6"].Parent = Converted["_Frame1"]
+
+Converted["_Button7"].Font = Enum.Font.SourceSans
+Converted["_Button7"].Text = "SetClipBoard"
+Converted["_Button7"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button7"].TextSize = 14
+Converted["_Button7"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button7"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button7"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button7"].Name = "Button"
+Converted["_Button7"].Parent = Converted["_Button6"]
+
+Converted["_Button8"].Font = Enum.Font.SourceSans
+Converted["_Button8"].Text = "Copy Display Name"
+Converted["_Button8"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button8"].TextSize = 14
+Converted["_Button8"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button8"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button8"].Position = UDim2.new(0.0323368199, 0, 0.61379993, 0)
+Converted["_Button8"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button8"].Name = "Button"
+Converted["_Button8"].Parent = Converted["_Frame1"]
+
+Converted["_Button9"].Font = Enum.Font.SourceSans
+Converted["_Button9"].Text = "SetClipBoard"
+Converted["_Button9"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button9"].TextSize = 14
+Converted["_Button9"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button9"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button9"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button9"].Name = "Button"
+Converted["_Button9"].Parent = Converted["_Button8"]
+
+Converted["_Button10"].Font = Enum.Font.SourceSans
+Converted["_Button10"].Text = "Copy Name"
+Converted["_Button10"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button10"].TextSize = 14
+Converted["_Button10"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button10"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button10"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button10"].Position = UDim2.new(0.0323368199, 0, 0.793980062, 0)
+Converted["_Button10"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button10"].Name = "Button"
+Converted["_Button10"].Parent = Converted["_Frame1"]
+
+Converted["_Button11"].Font = Enum.Font.SourceSans
+Converted["_Button11"].Text = "SetClipBoard"
+Converted["_Button11"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button11"].TextSize = 14
+Converted["_Button11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button11"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button11"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button11"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button11"].Name = "Button"
+Converted["_Button11"].Parent = Converted["_Button10"]
+
+Converted["_Tab-Change-Settings"].Font = Enum.Font.Arial
+Converted["_Tab-Change-Settings"].Text = "View"
+Converted["_Tab-Change-Settings"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-Settings"].TextSize = 13
+Converted["_Tab-Change-Settings"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tab-Change-Settings"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-Settings"].BorderSizePixel = 0
+Converted["_Tab-Change-Settings"].Position = UDim2.new(0.0700000003, 0, 0.270000011, 0)
+Converted["_Tab-Change-Settings"].Size = UDim2.new(0, 72, 0, 25)
+Converted["_Tab-Change-Settings"].Name = "Tab-Change-Settings"
+Converted["_Tab-Change-Settings"].Parent = Converted["_Tab-Select"]
+
+Converted["_Tab-Other"].Name = "Tab-Other"
+Converted["_Tab-Other"].Parent = Converted["_Tab-Select"]
+
+Converted["_Frame2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame2"].BackgroundTransparency = 1
+Converted["_Frame2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame2"].BorderSizePixel = 0
+Converted["_Frame2"].Position = UDim2.new(0.988237441, 0, 0.0179372206, 0)
+Converted["_Frame2"].Size = UDim2.new(0, 463, 0, 219)
+Converted["_Frame2"].Visible = false
+Converted["_Frame2"].Parent = Converted["_Tab-Other"]
+
+Converted["_Text4"].Font = Enum.Font.SourceSans
+Converted["_Text4"].Text = "Settings"
+Converted["_Text4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text4"].TextSize = 14
+Converted["_Text4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text4"].Position = UDim2.new(0.0366379321, 0, 0.0500000007, 0)
+Converted["_Text4"].Size = UDim2.new(0, 431, 0, 29)
+Converted["_Text4"].Name = "Text"
+Converted["_Text4"].Parent = Converted["_Frame2"]
+
+Converted["_Button12"].Font = Enum.Font.SourceSans
+Converted["_Button12"].Text = "Dark Theme"
+Converted["_Button12"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button12"].TextSize = 14
+Converted["_Button12"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button12"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button12"].Position = UDim2.new(0.0323368199, 0, 0.248935178, 0)
+Converted["_Button12"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button12"].Name = "Button"
+Converted["_Button12"].Parent = Converted["_Frame2"]
+
+Converted["_Button13"].Font = Enum.Font.SourceSans
+Converted["_Button13"].Text = "Use"
+Converted["_Button13"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button13"].TextSize = 14
+Converted["_Button13"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button13"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button13"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button13"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button13"].Name = "Button"
+Converted["_Button13"].Parent = Converted["_Button12"]
+
+Converted["_Button14"].Font = Enum.Font.SourceSans
+Converted["_Button14"].Text = "Light Theme"
+Converted["_Button14"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button14"].TextSize = 14
+Converted["_Button14"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button14"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button14"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button14"].Position = UDim2.new(0.0323368199, 0, 0.433619738, 0)
+Converted["_Button14"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button14"].Name = "Button"
+Converted["_Button14"].Parent = Converted["_Frame2"]
+
+Converted["_Button15"].Font = Enum.Font.SourceSans
+Converted["_Button15"].Text = "Use"
+Converted["_Button15"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button15"].TextSize = 14
+Converted["_Button15"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button15"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button15"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button15"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button15"].Name = "Button"
+Converted["_Button15"].Parent = Converted["_Button14"]
+
+Converted["_Button16"].Font = Enum.Font.SourceSans
+Converted["_Button16"].Text = "Destory Gui"
+Converted["_Button16"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button16"].TextSize = 14
+Converted["_Button16"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button16"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button16"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button16"].Position = UDim2.new(0.0323367678, 0, 0.611701846, 0)
+Converted["_Button16"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button16"].Name = "Button"
+Converted["_Button16"].Parent = Converted["_Frame2"]
+
+Converted["_Button17"].Font = Enum.Font.SourceSans
+Converted["_Button17"].Text = "Destory"
+Converted["_Button17"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button17"].TextSize = 14
+Converted["_Button17"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button17"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button17"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button17"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button17"].Name = "Button"
+Converted["_Button17"].Parent = Converted["_Button16"]
+
+Converted["_Sure"].Font = Enum.Font.SourceSans
+Converted["_Sure"].Text = "Sure"
+Converted["_Sure"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Sure"].TextSize = 14
+Converted["_Sure"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Sure"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Sure"].Position = UDim2.new(0.505800486, 0, 0.200000003, 0)
+Converted["_Sure"].Size = UDim2.new(0, 72, 0, 18)
+Converted["_Sure"].Visible = false
+Converted["_Sure"].Name = "Sure"
+Converted["_Sure"].Parent = Converted["_Button16"]
+
+Converted["_No"].Font = Enum.Font.SourceSans
+Converted["_No"].Text = "No"
+Converted["_No"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_No"].TextSize = 14
+Converted["_No"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_No"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_No"].Position = UDim2.new(0.800092757, 0, 0.200000003, 0)
+Converted["_No"].Size = UDim2.new(0, 72, 0, 18)
+Converted["_No"].Visible = false
+Converted["_No"].Name = "No"
+Converted["_No"].Parent = Converted["_Button16"]
+
+Converted["_Tab-Change-Scripts"].Font = Enum.Font.Arial
+Converted["_Tab-Change-Scripts"].Text = "Scripts"
+Converted["_Tab-Change-Scripts"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-Scripts"].TextSize = 13
+Converted["_Tab-Change-Scripts"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tab-Change-Scripts"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-Scripts"].BorderSizePixel = 0
+Converted["_Tab-Change-Scripts"].Position = UDim2.new(0.0700001419, 0, 0.31679818, 20)
+Converted["_Tab-Change-Scripts"].Size = UDim2.new(0, 72, 0, 25)
+Converted["_Tab-Change-Scripts"].Name = "Tab-Change-Scripts"
+Converted["_Tab-Change-Scripts"].Parent = Converted["_Tab-Select"]
+
+Converted["_Tab-View"].Name = "Tab-View"
+Converted["_Tab-View"].Parent = Converted["_Tab-Select"]
+
+Converted["_Frame3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame3"].BackgroundTransparency = 1
+Converted["_Frame3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame3"].BorderSizePixel = 0
+Converted["_Frame3"].Position = UDim2.new(0.988237441, 0, 4.10550371e-07, 0)
+Converted["_Frame3"].Size = UDim2.new(0, 463, 0, 223)
+Converted["_Frame3"].Visible = false
+Converted["_Frame3"].Parent = Converted["_Tab-View"]
+
+Converted["_Text5"].Font = Enum.Font.SourceSans
+Converted["_Text5"].Text = ""
+Converted["_Text5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text5"].TextSize = 14
+Converted["_Text5"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text5"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Text5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text5"].Position = UDim2.new(0.0370000005, 0, 0.0500000007, 0)
+Converted["_Text5"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text5"].Name = "Text"
+Converted["_Text5"].Parent = Converted["_Frame3"]
+
+Converted["_TextBox"].CursorPosition = -1
+Converted["_TextBox"].Font = Enum.Font.SourceSans
+Converted["_TextBox"].Text = ""
+Converted["_TextBox"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox"].TextSize = 14
+Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox"].Position = UDim2.new(0.174013928, 0, 0, 0)
+Converted["_TextBox"].Size = UDim2.new(0, 338, 0, 21)
+Converted["_TextBox"].Parent = Converted["_Text5"]
+
+Converted["_TextLabel2"].Font = Enum.Font.SourceSans
+Converted["_TextLabel2"].Text = "CFrame"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].TextSize = 14
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
+Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].BorderSizePixel = 0
+Converted["_TextLabel2"].Position = UDim2.new(0, 0, -0.0476190485, 0)
+Converted["_TextLabel2"].Size = UDim2.new(0, 75, 0, 22)
+Converted["_TextLabel2"].Parent = Converted["_Text5"]
+
+Converted["_Text6"].Font = Enum.Font.SourceSans
+Converted["_Text6"].Text = ""
+Converted["_Text6"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text6"].TextSize = 14
+Converted["_Text6"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text6"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Text6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text6"].Position = UDim2.new(0.0369999595, 0, 0.184528977, 0)
+Converted["_Text6"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text6"].Name = "Text"
+Converted["_Text6"].Parent = Converted["_Frame3"]
+
+Converted["_TextBox1"].Font = Enum.Font.SourceSans
+Converted["_TextBox1"].Text = ""
+Converted["_TextBox1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox1"].TextSize = 14
+Converted["_TextBox1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox1"].Position = UDim2.new(0.174013928, 0, 0, 0)
+Converted["_TextBox1"].Size = UDim2.new(0, 338, 0, 21)
+Converted["_TextBox1"].Parent = Converted["_Text6"]
+
+Converted["_TextLabel3"].Font = Enum.Font.SourceSans
+Converted["_TextLabel3"].Text = "Place Id"
+Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].TextSize = 14
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 1
+Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].BorderSizePixel = 0
+Converted["_TextLabel3"].Size = UDim2.new(0, 75, 0, 22)
+Converted["_TextLabel3"].Parent = Converted["_Text6"]
+
+Converted["_Text7"].Font = Enum.Font.SourceSans
+Converted["_Text7"].Text = ""
+Converted["_Text7"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text7"].TextSize = 14
+Converted["_Text7"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text7"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Text7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text7"].Position = UDim2.new(0.0369999595, 0, 0.314573824, 0)
+Converted["_Text7"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text7"].Name = "Text"
+Converted["_Text7"].Parent = Converted["_Frame3"]
+
+Converted["_TextBox2"].Font = Enum.Font.SourceSans
+Converted["_TextBox2"].Text = ""
+Converted["_TextBox2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox2"].TextSize = 14
+Converted["_TextBox2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox2"].Position = UDim2.new(0.174013928, 0, 0, 0)
+Converted["_TextBox2"].Size = UDim2.new(0, 338, 0, 21)
+Converted["_TextBox2"].Parent = Converted["_Text7"]
+
+Converted["_TextLabel4"].Font = Enum.Font.SourceSans
+Converted["_TextLabel4"].Text = "Game Name"
+Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].TextSize = 14
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BackgroundTransparency = 1
+Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].BorderSizePixel = 0
+Converted["_TextLabel4"].Size = UDim2.new(0, 75, 0, 22)
+Converted["_TextLabel4"].Parent = Converted["_Text7"]
+
+Converted["_Text8"].Font = Enum.Font.SourceSans
+Converted["_Text8"].Text = ""
+Converted["_Text8"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text8"].TextSize = 14
+Converted["_Text8"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text8"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Text8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text8"].Position = UDim2.new(0.0369999595, 0, 0.449102968, 0)
+Converted["_Text8"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text8"].Name = "Text"
+Converted["_Text8"].Parent = Converted["_Frame3"]
+
+Converted["_TextBox3"].Font = Enum.Font.SourceSans
+Converted["_TextBox3"].Text = ""
+Converted["_TextBox3"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox3"].TextSize = 14
+Converted["_TextBox3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox3"].Position = UDim2.new(0.174013928, 0, 0, 0)
+Converted["_TextBox3"].Size = UDim2.new(0, 338, 0, 21)
+Converted["_TextBox3"].Parent = Converted["_Text8"]
+
+Converted["_TextLabel5"].Font = Enum.Font.SourceSans
+Converted["_TextLabel5"].Text = "DisplayName"
+Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].TextSize = 14
+Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].BackgroundTransparency = 1
+Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].BorderSizePixel = 0
+Converted["_TextLabel5"].Size = UDim2.new(0, 75, 0, 22)
+Converted["_TextLabel5"].Parent = Converted["_Text8"]
+
+Converted["_Text9"].Font = Enum.Font.SourceSans
+Converted["_Text9"].Text = ""
+Converted["_Text9"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text9"].TextSize = 14
+Converted["_Text9"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text9"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Text9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text9"].Position = UDim2.new(0.0370000005, 0, 0.579999983, 0)
+Converted["_Text9"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text9"].Name = "Text"
+Converted["_Text9"].Parent = Converted["_Frame3"]
+
+Converted["_TextBox4"].Font = Enum.Font.SourceSans
+Converted["_TextBox4"].Text = ""
+Converted["_TextBox4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox4"].TextSize = 14
+Converted["_TextBox4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox4"].Position = UDim2.new(0.174013928, 0, 0, 0)
+Converted["_TextBox4"].Size = UDim2.new(0, 338, 0, 21)
+Converted["_TextBox4"].Parent = Converted["_Text9"]
+
+Converted["_TextLabel6"].Font = Enum.Font.SourceSans
+Converted["_TextLabel6"].Text = "Name"
+Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel6"].TextSize = 14
+Converted["_TextLabel6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel6"].BackgroundTransparency = 1
+Converted["_TextLabel6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel6"].BorderSizePixel = 0
+Converted["_TextLabel6"].Size = UDim2.new(0, 75, 0, 22)
+Converted["_TextLabel6"].Parent = Converted["_Text9"]
+
+Converted["_Text10"].Font = Enum.Font.SourceSans
+Converted["_Text10"].Text = ""
+Converted["_Text10"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text10"].TextSize = 14
+Converted["_Text10"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Text10"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Text10"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text10"].Position = UDim2.new(0.034840133, 0, 0.714529276, 0)
+Converted["_Text10"].Size = UDim2.new(0, 431, 0, 21)
+Converted["_Text10"].Name = "Text"
+Converted["_Text10"].Parent = Converted["_Frame3"]
+
+Converted["_TextBox5"].Font = Enum.Font.SourceSans
+Converted["_TextBox5"].Text = ""
+Converted["_TextBox5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox5"].TextSize = 14
+Converted["_TextBox5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox5"].Position = UDim2.new(0.174013928, 0, 0, 0)
+Converted["_TextBox5"].Size = UDim2.new(0, 338, 0, 21)
+Converted["_TextBox5"].Parent = Converted["_Text10"]
+
+Converted["_TextLabel7"].Font = Enum.Font.SourceSans
+Converted["_TextLabel7"].Text = "UserId"
+Converted["_TextLabel7"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel7"].TextSize = 14
+Converted["_TextLabel7"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel7"].BackgroundTransparency = 1
+Converted["_TextLabel7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel7"].BorderSizePixel = 0
+Converted["_TextLabel7"].Size = UDim2.new(0, 75, 0, 22)
+Converted["_TextLabel7"].Parent = Converted["_Text10"]
+
+Converted["_Tab-Change-Settings1"].Font = Enum.Font.Arial
+Converted["_Tab-Change-Settings1"].Text = "Settings"
+Converted["_Tab-Change-Settings1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-Settings1"].TextSize = 13
+Converted["_Tab-Change-Settings1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tab-Change-Settings1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tab-Change-Settings1"].BorderSizePixel = 0
+Converted["_Tab-Change-Settings1"].Position = UDim2.new(0.0700001419, 0, 0.453099549, 20)
+Converted["_Tab-Change-Settings1"].Size = UDim2.new(0, 72, 0, 25)
+Converted["_Tab-Change-Settings1"].Name = "Tab-Change-Settings"
+Converted["_Tab-Change-Settings1"].Parent = Converted["_Tab-Select"]
+
+Converted["_Tab-Scripts"].Name = "Tab-Scripts"
+Converted["_Tab-Scripts"].Parent = Converted["_Tab-Select"]
+
+Converted["_Frame4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame4"].BackgroundTransparency = 1
+Converted["_Frame4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame4"].BorderSizePixel = 0
+Converted["_Frame4"].Position = UDim2.new(0.988237441, 0, 0, 0)
+Converted["_Frame4"].Size = UDim2.new(0, 463, 0, 223)
+Converted["_Frame4"].Visible = false
+Converted["_Frame4"].Parent = Converted["_Tab-Scripts"]
+
+Converted["_Button18"].Font = Enum.Font.SourceSans
+Converted["_Button18"].Text = "Dex Script (New)"
+Converted["_Button18"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button18"].TextSize = 14
+Converted["_Button18"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button18"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button18"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button18"].Position = UDim2.new(0.0344873555, 0, 0.0552414916, 0)
+Converted["_Button18"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button18"].Name = "Button"
+Converted["_Button18"].Parent = Converted["_Frame4"]
+
+Converted["_Button19"].Font = Enum.Font.SourceSans
+Converted["_Button19"].Text = "Execute"
+Converted["_Button19"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button19"].TextSize = 14
+Converted["_Button19"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button19"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button19"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button19"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button19"].Name = "Button"
+Converted["_Button19"].Parent = Converted["_Button18"]
+
+Converted["_Button20"].Font = Enum.Font.SourceSans
+Converted["_Button20"].Text = "Dex Script (Old)"
+Converted["_Button20"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button20"].TextSize = 14
+Converted["_Button20"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button20"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button20"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button20"].Position = UDim2.new(0.0366471969, 0, 0.243582278, 0)
+Converted["_Button20"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button20"].Name = "Button"
+Converted["_Button20"].Parent = Converted["_Frame4"]
+
+Converted["_Button21"].Font = Enum.Font.SourceSans
+Converted["_Button21"].Text = "Execute"
+Converted["_Button21"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button21"].TextSize = 14
+Converted["_Button21"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button21"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button21"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button21"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button21"].Name = "Button"
+Converted["_Button21"].Parent = Converted["_Button20"]
+
+Converted["_Button22"].Font = Enum.Font.SourceSans
+Converted["_Button22"].Text = "Infinity Yield"
+Converted["_Button22"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button22"].TextSize = 14
+Converted["_Button22"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button22"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button22"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button22"].Position = UDim2.new(0.0366471969, 0, 0.427438766, 0)
+Converted["_Button22"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button22"].Name = "Button"
+Converted["_Button22"].Parent = Converted["_Frame4"]
+
+Converted["_Button23"].Font = Enum.Font.SourceSans
+Converted["_Button23"].Text = "Execute"
+Converted["_Button23"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button23"].TextSize = 14
+Converted["_Button23"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button23"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button23"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button23"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button23"].Name = "Button"
+Converted["_Button23"].Parent = Converted["_Button22"]
+
+Converted["_Button24"].Font = Enum.Font.SourceSans
+Converted["_Button24"].Text = "Simple Spy"
+Converted["_Button24"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button24"].TextSize = 14
+Converted["_Button24"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button24"].BackgroundColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 255)
+Converted["_Button24"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button24"].Position = UDim2.new(0.0344873667, 0, 0.606810987, 0)
+Converted["_Button24"].Size = UDim2.new(0, 431, 0, 30)
+Converted["_Button24"].Name = "Button"
+Converted["_Button24"].Parent = Converted["_Frame4"]
+
+Converted["_Button25"].Font = Enum.Font.SourceSans
+Converted["_Button25"].Text = "Execute"
+Converted["_Button25"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button25"].TextSize = 14
+Converted["_Button25"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button25"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button25"].Position = UDim2.new(0.505800605, 0, 0.190476477, 0)
+Converted["_Button25"].Size = UDim2.new(0, 200, 0, 18)
+Converted["_Button25"].Name = "Button"
+Converted["_Button25"].Parent = Converted["_Button24"]
+
+Converted["_FILE - THEME"].Name = "FILE - THEME"
+Converted["_FILE - THEME"].Parent = Converted["_Help gui v1.7.2"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function GQNN_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - LOADING.text.Loading
+    local script = Instance.new("LocalScript")
+    script.Name = "Loading"
+    script.Parent = Converted["_text"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local success, executor = pcall(identifyexecutor)
+	
+	if success and executor == "JJSploit" then
+		script.Parent.Parent["Error text - executor"].TextButton.Visible = true
+		return
+	else
+		wait(0.7)
+		script.Parent.Text = "Loading Finish!"
+		script.Parent.Parent.Parent["FILE - MAIN UI"].Parents.Visible = true
+		wait(2)
+	
+		script.Parent.Parent.text.Visible = false
+	end
+	
+end
+local function ZBMXUDJ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - LOADING.Error text - executor.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+local function NXPA_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - MAIN UI.Parents.Select Theme.Dropdown.Open Select.THEME SELECT
+    local script = Instance.new("LocalScript")
+    script.Name = "THEME SELECT"
+    script.Parent = Converted["_Open Select"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local function s()
+		if script.Parent.Parent["Use Theme"]["DropDown Select"].Visible == true then
+			script.Parent.Text = "<"
+			script.Parent.Parent["Use Theme"]["DropDown Select"].Visible = false
+		else
+			script.Parent.Text = "<"
+			script.Parent.Parent["Use Theme"]["DropDown Select"].Visible = true
+		end	
+	end
+	
+	
+	script.Parent.MouseButton1Up:Connect(s)
+end
+local function JDNX_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - MAIN UI.Parents.Select Theme.Dropdown.Close.DELETE
+    local script = Instance.new("LocalScript")
+    script.Name = "DELETE"
+    script.Parent = Converted["_Close"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+local function EJHDATU_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - MAIN UI.Parents.Select Theme.Dropdown.Use Theme.START MAIN
+    local script = Instance.new("LocalScript")
+    script.Name = "START MAIN"
+    script.Parent = Converted["_Use Theme"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent["Download - 2"].Visible = true
+	end)
+end
+local function LACBS_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - MAIN UI.Parents.Select Theme.Dropdown.Use Theme.DropDown Select.Dark.Dark
+    local script = Instance.new("LocalScript")
+    script.Name = "Dark"
+    script.Parent = Converted["_Dark"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		_G.Dark = true
+		_G.Light = false
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Text = "Dark Theme"
+	
+	end)
+end
+local function KABNTS_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - MAIN UI.Parents.Select Theme.Dropdown.Use Theme.DropDown Select.Light.LIGHT
+    local script = Instance.new("LocalScript")
+    script.Name = "LIGHT"
+    script.Parent = Converted["_Light"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		_G.Dark = false
+		_G.Light = true
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Text = "Light Theme"
+	
+	end)
+end
+local function PPSII_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - MAIN UI.Parents.Download - 2.LOAD BAR.Theme Loader
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme Loader"
+    script.Parent = Converted["_LOAD BAR"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+	
+	
+	if _G.Dark then
+			script.Parent.Parent.BackgroundColor = BrickColor.new("Black metallic")
+			script.Parent.Parent.TextLabel.TextColor = BrickColor.new("White")
+			if script.Parent.Parent.Visible == true then
+				wait(0.7)
+				script.Parent["FULL  BAR"].Visible = true
+				wait(0.7)
+				script.Parent.Parent.Visible = false
+				script.Parent.Parent.Parent.Parent.Parent.Home.Visible = true
+			else
+			end
+	elseif _G.Light then
+			script.Parent.Parent.BackgroundColor = BrickColor.new("White")
+			script.Parent.Parent.TextLabel.TextColor = BrickColor.new("Black metallic")
+			if script.Parent.Parent.Visible == true then
+				wait(0.7)
+				script.Parent["FULL  BAR"].Visible = true
+				wait(0.7)
+				script.Parent.Parent.Visible = false
+				script.Parent.Parent.Parent.Parent.Parent.Home.Visible = true
+	        else
+	        end
+	else
+	end
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+end
+local function EHYEYZF_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - START UP.Start-up
+    local script = Instance.new("LocalScript")
+    script.Name = "Start-up"
+    script.Parent = Converted["_FILE - START UP"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local s = script.Parent.Parent
+	s["FILE - LOADING"].text.Visible = true
+	s["FILE - MAIN UI"].Parents.Visible = false
+end
+local function NEBQ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Home"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+	
+	
+		if _G.Dark then
+			script.Parent.BackgroundColor = BrickColor.new("Black metallic")
+	
+		elseif _G.Light then
+			script.Parent.BackgroundColor = BrickColor.new("White")	
+		else
+			
+		end
+	end
+	
+end
+local function XQOFY_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.drag
+    local script = Instance.new("LocalScript")
+    script.Name = "drag"
+    script.Parent = Converted["_Home"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0
+	local dragStart = nil
+	local starPos = nil
+	local t = 0.6
+	--=[Funtion]=--
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(starPos.X.Scale, starPos.X.Offset + delta.X, starPos.Y.Scale, starPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}) :Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			dragToggle = true
+			dragStart = input.Position
+			starPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				script.Parent.Transparency = t
+				frame["Tab-Select"].Transparency = t
+				frame["Tab-Select"].Title.Transparency = t
+				updateInput (input)
+			else
+				script.Parent.Transparency = 0
+				frame["Tab-Select"].Transparency = 0
+				frame["Tab-Select"].Title.Transparency = 0
+			end
+		end
+	end)
+end
+local function TQNCO_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Tab-Select"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+	
+	
+		if _G.Dark then
+			script.Parent.BackgroundColor = BrickColor.new("Black")
+	
+		elseif _G.Light then
+			script.Parent.BackgroundColor = BrickColor.new("Lily white")	
+		else
+			
+		end
+	end
+	
+end
+local function WXSJSXG_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Title.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Title"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+	
+	
+		if _G.Dark then
+			script.Parent.BackgroundColor = BrickColor.new("Black")
+			script.Parent.TextColor = BrickColor.new("White")
+		elseif _G.Light then
+			script.Parent.BackgroundColor = BrickColor.new("Lily white")	
+			script.Parent.TextColor = BrickColor.new("Black")
+	
+		else
+			
+		end
+	end
+	
+end
+local function QMSZZFY_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Title.TextLabel.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextLabel1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+	
+	
+		if _G.Dark then
+			script.Parent.BackgroundColor = BrickColor.new("Black")
+			script.Parent.TextColor = BrickColor.new("White")
+		elseif _G.Light then
+			script.Parent.BackgroundColor = BrickColor.new("Lily white")	
+			script.Parent.TextColor = BrickColor.new("Black")
+	
+		else
+			
+		end
+	end
+	
+end
+local function LVONI_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-MAIN.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Tab-Change-MAIN"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function UVJSENM_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-MAIN.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_Tab-Change-MAIN"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local v = script.Parent.Parent["Tab-Copy"]
+		local s = script.Parent.Parent["Tab-Main"]
+		local q = script.Parent.Parent["Tab-Other"]
+		local z = script.Parent.Parent["Tab-View"]
+		local e = script.Parent.Parent["Tab-Scripts"]
+		e.Frame.Visible = false
+		
+		z.Frame.Visible = false
+		s.Frame.Visible = true
+		v.Frame.Visible = false
+		q.Frame.Visible = false
+	
+	
+	end)
+end
+local function COQN_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function ZLBY_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function REUX_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function RUML_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function EPNSEC_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		setclipboard("https://discord.gg/sWMUtAxcYu")
+	end)
+end
+local function UPUH_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function NKPZXX_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function YVMYGL_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.game name.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_game name"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0) 
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0) 
+		end
+	end
+	
+end
+local function KFJRJCA_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Main.Frame.game name.GetGameName
+    local script = Instance.new("LocalScript")
+    script.Name = "GetGameName"
+    script.Parent = Converted["_game name"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local s = game:GetService("MarketplaceService")
+	local z = s:GetProductInfo(game.PlaceId).Name
+	
+	script.Parent.Text = "Game : " .. z
+end
+local function CBNGFIZ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-Copy.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Tab-Change-Copy"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function ICRACNI_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-Copy.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_Tab-Change-Copy"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local v = script.Parent.Parent["Tab-Copy"]
+		local s = script.Parent.Parent["Tab-Main"]
+		local q = script.Parent.Parent["Tab-Other"]
+		local z = script.Parent.Parent["Tab-View"]
+		local e = script.Parent.Parent["Tab-Scripts"]
+		e.Frame.Visible = false
+		
+		v.Frame.Visible = true
+		s.Frame.Visible = false
+		q.Frame.Visible = false
+		z.Frame.Visible = false
+	
+	end)
+end
+local function EVJHZ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function HFBZHG_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function HBTT_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local a = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.Position
+		local s = string.format("%f, %f, %f", a.X, a.Y, a.Z)
+		print(s)
+		setclipboard(s)
+	end)
+	
+end
+local function YCIUXPT_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function SBXIX_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function NJEKJBB_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local e = game.PlaceId
+	
+		print(e)
+		setclipboard(e)
+	end)
+	
+end
+local function IIGZ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button6"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function SLYJISX_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button7"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function ZVKGEG_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button7"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local s = game:GetService("MarketplaceService")
+		local z = s:GetProductInfo(game.PlaceId).Name
+	
+		print(z)
+		setclipboard(z)
+	end)
+	
+end
+local function KICRRQ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button8"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function SGFR_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button9"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function TGWE_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button9"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local z = game.Players.LocalPlayer.DisplayName
+	
+		print(z)
+		setclipboard(z)
+	end)
+	
+end
+local function GLYQMZ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button10"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function DZPBLGH_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button11"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function XBQWZQ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Copy.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button11"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local z = game.Players.LocalPlayer.Name
+	
+		print(z)
+		setclipboard(z)
+	end)
+	
+end
+local function VFZCE_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-Settings.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Tab-Change-Settings"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function CKLG_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-Settings.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_Tab-Change-Settings"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local v = script.Parent.Parent["Tab-Copy"]
+		local s = script.Parent.Parent["Tab-Main"]
+		local q = script.Parent.Parent["Tab-Other"]
+		local z = script.Parent.Parent["Tab-View"]
+		local e = script.Parent.Parent["Tab-Scripts"]
+		e.Frame.Visible = false
+		v.Frame.Visible = false
+		s.Frame.Visible = false
+		q.Frame.Visible = false
+		z.Frame.Visible = true
+	
+	end)
+end
+local function ZVFCJXW_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function IABJ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button12"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function ORKQCC_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button13"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function PEAVF_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button13"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		_G.Light = false
+			_G.Dark = true
+	end)
+	
+	
+end
+local function PZDEL_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button14"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function HMQBCYB_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button15"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function YSAAOW_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button15"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+	_G.Light = true
+	_G.Dark = false
+	end)
+	
+end
+local function QTKWC_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button16"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function ZQBVI_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button17"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function FWWP_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button17"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+	   script.Parent.Parent.Sure.Visible = true
+		script.Parent.Parent.No.Visible = true
+		script.Parent.Visible = false
+	end)
+	
+end
+local function CSKNGU_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Sure.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Sure"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function IZUQ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.Sure.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Sure"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent:Destroy()
+		warn("Fully destory!")
+	end)
+end
+local function EFBPHM_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.No.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_No"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function UASRD_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Other.Frame.Button.No.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_No"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+	script.Parent.Parent.No.Visible = false
+	script.Parent.Parent.Sure.Visible = false
+	script.Parent.Parent.Button.Visible = true
+	end)
+	
+end
+local function PIFGUBD_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-Scripts.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Tab-Change-Scripts"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function OUMX_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-Scripts.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_Tab-Change-Scripts"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local v = script.Parent.Parent["Tab-Copy"]
+		local s = script.Parent.Parent["Tab-Main"]
+		local q = script.Parent.Parent["Tab-Other"]
+		local z = script.Parent.Parent["Tab-View"]
+		local e = script.Parent.Parent["Tab-Scripts"]
+		e.Frame.Visible = true
+		
+		z.Frame.Visible = false
+	
+		v.Frame.Visible = false
+		s.Frame.Visible = false
+		q.Frame.Visible = false
+	end)
+end
+local function RPLR_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function FTTUU_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextBox"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function ZBMOTRU_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_TextBox"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait() do
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+		local textLabel = script.Parent
+		local function updateText()
+			local position = humanoidRootPart.Position
+			textLabel.Text = "  " .. math.round(position.X) .. "  " .. math.round(position.Y) .. "  " .. math.round(position.Z)
+		end
+		game:GetService("RunService").Heartbeat:Connect(updateText)
+	
+	end
+end
+local function INDYN_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextLabel.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextLabel2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function GINGE_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text6"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function HCAFX_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextBox1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function GPQGRCW_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_TextBox1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait() do
+	 local s = game.PlaceId
+	 script.Parent.Text = s
+	end
+end
+local function RFMCAE_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextLabel.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextLabel3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function CRII_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text7"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function WNVEHA_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextBox2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function PFVKSH_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_TextBox2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait() do
+		local s = game:GetService("MarketplaceService")
+		local z = s:GetProductInfo(game.PlaceId).Name
+	
+		script.Parent.Text = z
+	end
+end
+local function RAZXV_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextLabel.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextLabel4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function CZZN_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text8"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function GAVHCKB_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextBox3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function OMHAS_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_TextBox3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait() do
+		local s = game.Players.LocalPlayer.DisplayName
+		script.Parent.Text = s
+	
+	end
+end
+local function HYRWYQS_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextLabel.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextLabel5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function TZCT_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text9"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function GPLNJ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextBox4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function UBHQOZ_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_TextBox4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait() do
+		local s = game.Players.LocalPlayer.Name
+		script.Parent.Text = s
+	
+	end
+end
+local function IMMC_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextLabel.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextLabel6"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function LVYH_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Text10"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function DTKMABS_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextBox5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function NQAC_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextBox.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_TextBox5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait() do
+		local s = game.Players.LocalPlayer.UserId
+		script.Parent.Text = s
+	
+	end
+end
+local function YHVDPG_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-View.Frame.Text.TextLabel.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_TextLabel7"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function UIIM_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-Settings.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Tab-Change-Settings1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function ZBOTYR_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Change-Settings.Event
+    local script = Instance.new("LocalScript")
+    script.Name = "Event"
+    script.Parent = Converted["_Tab-Change-Settings1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local v = script.Parent.Parent["Tab-Copy"]
+		local s = script.Parent.Parent["Tab-Main"]
+		local q = script.Parent.Parent["Tab-Other"]
+		local z = script.Parent.Parent["Tab-View"]
+		local e = script.Parent.Parent["Tab-Scripts"]
+		e.Frame.Visible = false
+		z.Frame.Visible = false
+	
+		v.Frame.Visible = false
+		s.Frame.Visible = false
+		q.Frame.Visible = true
+	end)
+end
+local function INHTB_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button18"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function YVFY_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button19"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function NZOY_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button19"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EqHubv2/Dex/main/v.1.0/Loaded",true))()
+	
+	end)
+	
+end
+local function ENCPCSI_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button20"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function UQBI_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button21"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function QVQWN_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button21"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+	
+	end)
+	
+end
+local function GCODY_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button22"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function CCQRBK_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button23"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function WZHBJBB_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button23"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+	
+end
+local function MTJVTIP_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button24"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(0, 0, 0)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function AYRXKH_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Button.Theme
+    local script = Instance.new("LocalScript")
+    script.Name = "Theme"
+    script.Parent = Converted["_Button25"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	while wait(0.3) do
+		if _G.Dark then
+			script.Parent.BackgroundColor3 = Color3.new(27/255, 42/255, 53/255)
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			script.Parent.BorderColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+		elseif _G.Light then
+			script.Parent.BackgroundColor3 = Color3.new(1, 1, 1)
+			script.Parent.TextColor3 = Color3.new(0, 0, 0)
+			script.Parent.BorderColor3 = Color3.new(0.9, 0.9, 0.9)
+		end
+	end
+	
+end
+local function EUMK_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.Home.Tab-Select.Tab-Scripts.Frame.Button.Button.event
+    local script = Instance.new("LocalScript")
+    script.Name = "event"
+    script.Parent = Converted["_Button25"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
+	
+	end)
+	
+end
+local function JBMF_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - THEME.THEME
+    local script = Instance.new("LocalScript")
+    script.Name = "THEME"
+    script.Parent = Converted["_FILE - THEME"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	_G.Dark = false
+	_G.Light = true
+		print("Dark mode:", _G.Dark)
+		print("Light mode:", _G.Light)
+	
+end
+local function UTVEK_fake_script() -- Fake Script: StarterGui.Help gui v1.7.2.FILE - THEME.GetThemeColor
+    local script = Instance.new("LocalScript")
+    script.Name = "GetThemeColor"
+    script.Parent = Converted["_FILE - THEME"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local THEME = {}
+	local Theme = {
+		DarkTheme = {
+			outlineColor = 0.203922, 0.203922, 0.203922 ,
+			BackgroundColor3 = 27/255, 42/255, 53/255 ,
+			TextColor3 = 1, 1, 1
+		},
+		LightTheme = {
+			outlineColor = 0.9, 0.9, 0.9 , 
+			BackgroundColor3 = 1, 1, 1 ,
+			TextColor3 = 0, 0, 0
+		}
+	}
+	return THEME
+	
+end
+
+coroutine.wrap(GQNN_fake_script)()
+coroutine.wrap(ZBMXUDJ_fake_script)()
+coroutine.wrap(NXPA_fake_script)()
+coroutine.wrap(JDNX_fake_script)()
+coroutine.wrap(EJHDATU_fake_script)()
+coroutine.wrap(LACBS_fake_script)()
+coroutine.wrap(KABNTS_fake_script)()
+coroutine.wrap(PPSII_fake_script)()
+coroutine.wrap(EHYEYZF_fake_script)()
+coroutine.wrap(NEBQ_fake_script)()
+coroutine.wrap(XQOFY_fake_script)()
+coroutine.wrap(TQNCO_fake_script)()
+coroutine.wrap(WXSJSXG_fake_script)()
+coroutine.wrap(QMSZZFY_fake_script)()
+coroutine.wrap(LVONI_fake_script)()
+coroutine.wrap(UVJSENM_fake_script)()
+coroutine.wrap(COQN_fake_script)()
+coroutine.wrap(ZLBY_fake_script)()
+coroutine.wrap(REUX_fake_script)()
+coroutine.wrap(RUML_fake_script)()
+coroutine.wrap(EPNSEC_fake_script)()
+coroutine.wrap(UPUH_fake_script)()
+coroutine.wrap(NKPZXX_fake_script)()
+coroutine.wrap(YVMYGL_fake_script)()
+coroutine.wrap(KFJRJCA_fake_script)()
+coroutine.wrap(CBNGFIZ_fake_script)()
+coroutine.wrap(ICRACNI_fake_script)()
+coroutine.wrap(EVJHZ_fake_script)()
+coroutine.wrap(HFBZHG_fake_script)()
+coroutine.wrap(HBTT_fake_script)()
+coroutine.wrap(YCIUXPT_fake_script)()
+coroutine.wrap(SBXIX_fake_script)()
+coroutine.wrap(NJEKJBB_fake_script)()
+coroutine.wrap(IIGZ_fake_script)()
+coroutine.wrap(SLYJISX_fake_script)()
+coroutine.wrap(ZVKGEG_fake_script)()
+coroutine.wrap(KICRRQ_fake_script)()
+coroutine.wrap(SGFR_fake_script)()
+coroutine.wrap(TGWE_fake_script)()
+coroutine.wrap(GLYQMZ_fake_script)()
+coroutine.wrap(DZPBLGH_fake_script)()
+coroutine.wrap(XBQWZQ_fake_script)()
+coroutine.wrap(VFZCE_fake_script)()
+coroutine.wrap(CKLG_fake_script)()
+coroutine.wrap(ZVFCJXW_fake_script)()
+coroutine.wrap(IABJ_fake_script)()
+coroutine.wrap(ORKQCC_fake_script)()
+coroutine.wrap(PEAVF_fake_script)()
+coroutine.wrap(PZDEL_fake_script)()
+coroutine.wrap(HMQBCYB_fake_script)()
+coroutine.wrap(YSAAOW_fake_script)()
+coroutine.wrap(QTKWC_fake_script)()
+coroutine.wrap(ZQBVI_fake_script)()
+coroutine.wrap(FWWP_fake_script)()
+coroutine.wrap(CSKNGU_fake_script)()
+coroutine.wrap(IZUQ_fake_script)()
+coroutine.wrap(EFBPHM_fake_script)()
+coroutine.wrap(UASRD_fake_script)()
+coroutine.wrap(PIFGUBD_fake_script)()
+coroutine.wrap(OUMX_fake_script)()
+coroutine.wrap(RPLR_fake_script)()
+coroutine.wrap(FTTUU_fake_script)()
+coroutine.wrap(ZBMOTRU_fake_script)()
+coroutine.wrap(INDYN_fake_script)()
+coroutine.wrap(GINGE_fake_script)()
+coroutine.wrap(HCAFX_fake_script)()
+coroutine.wrap(GPQGRCW_fake_script)()
+coroutine.wrap(RFMCAE_fake_script)()
+coroutine.wrap(CRII_fake_script)()
+coroutine.wrap(WNVEHA_fake_script)()
+coroutine.wrap(PFVKSH_fake_script)()
+coroutine.wrap(RAZXV_fake_script)()
+coroutine.wrap(CZZN_fake_script)()
+coroutine.wrap(GAVHCKB_fake_script)()
+coroutine.wrap(OMHAS_fake_script)()
+coroutine.wrap(HYRWYQS_fake_script)()
+coroutine.wrap(TZCT_fake_script)()
+coroutine.wrap(GPLNJ_fake_script)()
+coroutine.wrap(UBHQOZ_fake_script)()
+coroutine.wrap(IMMC_fake_script)()
+coroutine.wrap(LVYH_fake_script)()
+coroutine.wrap(DTKMABS_fake_script)()
+coroutine.wrap(NQAC_fake_script)()
+coroutine.wrap(YHVDPG_fake_script)()
+coroutine.wrap(UIIM_fake_script)()
+coroutine.wrap(ZBOTYR_fake_script)()
+coroutine.wrap(INHTB_fake_script)()
+coroutine.wrap(YVFY_fake_script)()
+coroutine.wrap(NZOY_fake_script)()
+coroutine.wrap(ENCPCSI_fake_script)()
+coroutine.wrap(UQBI_fake_script)()
+coroutine.wrap(QVQWN_fake_script)()
+coroutine.wrap(GCODY_fake_script)()
+coroutine.wrap(CCQRBK_fake_script)()
+coroutine.wrap(WZHBJBB_fake_script)()
+coroutine.wrap(MTJVTIP_fake_script)()
+coroutine.wrap(AYRXKH_fake_script)()
+coroutine.wrap(EUMK_fake_script)()
+coroutine.wrap(JBMF_fake_script)()
+coroutine.wrap(UTVEK_fake_script)()
